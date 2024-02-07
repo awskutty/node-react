@@ -1,16 +1,9 @@
 FROM node:20
-
-EXPOSE 3001
-
+WORKDIR /app
+COPY package.json package-lock.json* ./
 # Use latest version of npm
 RUN npm i npm@latest -g
-
-COPY package.json package-lock.json* ./
-
 RUN npm install --no-optional && npm cache clean --force
-
-# copy in our source code last, as it changes the most
-WORKDIR /app
 COPY . .
-
-CMD [ "node", "app/main.ts" ]
+EXPOSE 3001
+CMD [ "node", "nest start" ]
