@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  react_app:
+    container_name: react_app
+    image: react_app_template
+    build: ./react-app
+    ports:
+      - "3000:3000"
+  node_server:
+    container_name: node_server
+    image: node_server_template
+    build:
+      context: ./node-backend
+    ports:
+      - "3001:3001"
