@@ -1,0 +1,170 @@
+{
+    "header": "hi",
+    "content": {
+        "name": {
+            "fname": {
+                "name": "fname",
+                "type": "text",
+                "value": "madan"
+            },
+            "lname": {
+                "name": "lname",
+                "type": "text",
+                "value": "david"
+            },
+            "mname": {
+                "name": "fname",
+                "type": "text",
+                "value": "madan"
+            },
+            "sname": {
+                "name": "lname",
+                "type": "text",
+                "value": "david"
+            },
+            "fid": {
+                "name": "fname",
+                "type": "text",
+                "value": "madan"
+            },
+            "lid": {
+                "name": "lname",
+                "type": "text",
+                "value": "david"
+            },
+            "mid": {
+                "name": "fname",
+                "type": "text",
+                "value": "madan"
+            },
+            "sid": {
+                "name": "lname",
+                "type": "text",
+                "value": "david"
+            }
+        },
+        "address": {
+            "street": {
+                "sname": {
+                    "name": "sname",
+                    "type": "text",
+                    "value": "east"
+                },
+                "scode": {
+                    "name": "scode",
+                    "type": "number",
+                    "value": 102
+                }
+            },
+            "city": {
+                "cname": {
+                    "name": "cname",
+                    "type": "combo-box",
+                    "options": [
+                        "chennai",
+                        "coimbatore",
+                        "madurai"
+                    ],
+                    "value": ""
+                },
+                "cityid": {
+                    "name": "cityid",
+                    "type": "combo-box",
+                    "options": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "value": ""
+                }
+            },
+            "hobby": {
+                "hobbbies": {
+                    "name": "hobbbies",
+                    "type": "checkbox",
+                    "options": [
+                        "cricket",
+                        "football",
+                        "basketball"
+                    ],
+                    "value": []
+                }
+            },
+            "more": {
+                "gender": {
+                    "name": "gender",
+                    "type": "radio",
+                    "options": [
+                        "male",
+                        "female"
+                    ],
+                    "value": ""
+                },
+                "nationality": {
+                    "name": "nationality",
+                    "type": "radio",
+                    "options": [
+                        "indian",
+                        "nri",
+                        "others"
+                    ],
+                    "value": ""
+                }
+            },
+            "pincode": {
+                "name": "pincode",
+                "type": "number",
+                "value": 90
+            }
+        },
+        "contact": {
+            "mobile": {
+                "name": "mobile",
+                "type": "number",
+                "value": 23456
+            },
+            "phone": {
+                "name": "Phone",
+                "type": "number",
+                "value": 98765
+            },
+            "email": {
+                "name": "email",
+                "type": "email",
+                "value": "david@gmail.com"
+            },
+            "address": {
+                "street": {
+                    "sname": {
+                        "name": "sname",
+                        "type": "text",
+                        "value": "west"
+                    },
+                    "scode": {
+                        "label": "scode",
+                        "type": "number",
+                        "value": 21
+                    }
+                },
+                "city": {
+                    "cname": {
+                        "label": "cname",
+                        "type": "text",
+                        "value": "Tirunelveli"
+                    },
+                    "ccode": {
+                        "label": "city-code",
+                        "type": "number",
+                        "value": 34
+                    }
+                },
+                "pincode": {
+                    "label": "pincode",
+                    "type": "number",
+                    "value": 627006
+                }
+            }
+        }
+    },
+    "footer": "bye"
+}

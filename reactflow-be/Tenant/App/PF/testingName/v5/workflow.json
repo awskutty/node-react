@@ -1,0 +1,244 @@
+{
+  "name": {
+    "value": "jaffrin",
+    "role": "register",
+    "property": {
+      "Id": "23cd88ee-8de4-49c6-9e11-440d4230b91b",
+      "name": "name",
+      "description": ""
+    }
+  },
+  "age": {
+    "value": 24,
+    "role": "register",
+    "property": {
+      "Id": "6fd502c3-9438-4478-9d72-cec7792f9b14",
+      "name": "age",
+      "description": ""
+    }
+  },
+  "phone": {
+    "value": 9994980445,
+    "role": "register",
+    "property": {
+      "Id": "3df90c3a-24bc-4355-9229-0317777173ec",
+      "name": "phone",
+      "description": ""
+    }
+  },
+  "address": {
+    "value": {
+      "street": {
+        "value": "mathavanam",
+        "role": "register",
+        "property": {
+          "Id": "c075a3bc-186c-4bb4-8352-d0a8332358ef",
+          "name": "street",
+          "description": ""
+        }
+      },
+      "city": {
+        "value": "Nazareth",
+        "role": "register",
+        "property": {
+          "Id": "b8dd218e-556a-4322-af32-873522c639b2",
+          "name": "city",
+          "description": ""
+        }
+      },
+      "pincode": {
+        "value": 628617,
+        "role": "register",
+        "property": {
+          "Id": "ec29908e-573d-4314-ab8d-af0d9d93826a",
+          "name": "pincode",
+          "description": ""
+        }
+      },
+      "doorNo": {
+        "value": {
+          "pin": {
+            "value": 1234,
+            "role": "register",
+            "property": {
+              "Id": "82b1ba16-89dd-480e-a404-8e18dfd20cfc",
+              "name": "pin",
+              "description": ""
+            }
+          },
+          "testing": {
+            "value": {
+              "overTesting": {
+                "value": {
+                  "over": {
+                    "value": "hi",
+                    "role": "register",
+                    "property": {
+                      "Id": "1b0394b8-97a4-4581-a793-d407bb6af528",
+                      "name": "over",
+                      "description": ""
+                    }
+                  }
+                },
+                "role": "register",
+                "property": {
+                  "Id": "b70456f0-f406-4e79-a7d6-662f4d50c1ea",
+                  "name": "overTesting",
+                  "description": ""
+                }
+              }
+            },
+            "role": "register",
+            "property": {
+              "Id": "c56e4076-d09f-48f2-aaaf-759f81ffd5ca",
+              "name": "testing",
+              "description": ""
+            }
+          }
+        },
+        "role": "register",
+        "property": {
+          "Id": "f2b2818b-ef4e-4f6c-a269-0baea01787c5",
+          "name": "doorNo",
+          "description": ""
+        }
+      }
+    },
+    "role": "register",
+    "property": {
+      "Id": "f7fc76c2-ebd1-44fa-bfdf-58b7d089fd53",
+      "name": "address",
+      "description": ""
+    }
+  },
+  "qualification": {
+    "value": {
+      "SSLC": {
+        "value": "State Board",
+        "role": "qa",
+        "property": {
+          "Id": "d7c289d5-38b6-49b5-ab42-32a3bc304ea4",
+          "name": "SSLC",
+          "description": ""
+        }
+      },
+      "HSC": {
+        "value": "State Board",
+        "role": "qa",
+        "property": {
+          "Id": "a467e0b5-2a21-4b91-8fac-028ade92e9a6",
+          "name": "HSC",
+          "description": ""
+        }
+      },
+      "UG": {
+        "value": "B.E..,CSE",
+        "role": "qa",
+        "property": {
+          "Id": "4503e449-1b01-4861-a682-4fb0352306dc",
+          "name": "UG",
+          "description": ""
+        }
+      }
+    },
+    "role": "qa",
+    "property": {
+      "Id": "c5c64b40-35be-4f73-be5b-7d6f9741e266",
+      "name": "qualification",
+      "description": ""
+    }
+  },
+  "skills": {
+    "value": {
+      "softskill": {
+        "value": " problem-solving, leadership",
+        "role": "sk",
+        "property": {
+          "Id": "f34474c0-7494-431f-b717-2e411b120aa6",
+          "name": "softskill",
+          "description": ""
+        }
+      },
+      "hardskill": {
+        "value": "Budget management",
+        "role": "sk",
+        "property": {
+          "Id": "f6afd59a-dce2-4601-b818-5fbc1ceef63b",
+          "name": "hardskill",
+          "description": ""
+        }
+      }
+    },
+    "role": "sk",
+    "property": {
+      "Id": "fa5603a3-7801-4260-b365-cad8ef5b3f7a",
+      "name": "Skills",
+      "description": ""
+    }
+  },
+  "livingthings": {
+    "value": {
+      "mammals": {
+        "value": "Dog,Cat",
+        "role": "life",
+        "property": {
+          "Id": "5571e212-6b49-4d92-9f51-84a9c0dbd2a1",
+          "name": "mammals",
+          "description": ""
+        }
+      },
+      "insect": {
+        "value": "Butterfly",
+        "role": "life",
+        "property": {
+          "Id": "3fbe2a96-ec07-4f13-868f-648cd2624515",
+          "name": "insect",
+          "description": ""
+        }
+      },
+      "marine": {
+        "value": "shark",
+        "role": "life",
+        "property": {
+          "Id": "b0573411-2165-4bdf-b064-4fbaf9a78323",
+          "name": "marine",
+          "description": ""
+        }
+      },
+      "micro": {
+        "value": {
+          "singlecell": {
+            "value": "bacteria",
+            "role": "life",
+            "property": {
+              "Id": "de125928-7b9e-482e-9015-b9b17278faa4",
+              "name": "singlecell",
+              "description": ""
+            }
+          },
+          "multicell": {
+            "value": "waterBear",
+            "role": "life",
+            "property": {
+              "Id": "6a377f12-c67f-4d39-a0f8-895a8dc32c53",
+              "name": "multicell",
+              "description": ""
+            }
+          }
+        },
+        "role": "life",
+        "property": {
+          "Id": "49227153-ff97-4ee9-8bfe-5ffbf50a7eaa",
+          "name": "micro",
+          "description": ""
+        }
+      }
+    },
+    "role": "life",
+    "property": {
+      "Id": "774206a5-be9d-4553-96b2-a694dcb0e6eb",
+      "name": "livingthings",
+      "description": ""
+    }
+  }
+}

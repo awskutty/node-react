@@ -1,0 +1,1 @@
+[{"flow1":[{"nodeType":"startNode","NodeId":"6dd358e7-e24e-4c9f-be4a-f18c3bcf20bd","Nodename":"Start"},{"nodeType":"kafkaNode","NodeId":"5f5ada18-efdd-46de-a99a-ac6ea9f7717f","Nodename":"kafka"},{"nodeType":"endNode","NodeId":"37df9c42-2d8c-45ad-b71d-afba6ad88f7b","Nodename":"End"}]}]

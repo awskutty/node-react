@@ -1,0 +1,1 @@
+[{"flow1":[{"nodeType":"startNode","NodeId":"7e10e8ef-c649-4d0f-8a16-1336c3e2dea6","Nodename":"Start"},{"nodeType":"apiNode","NodeId":"6f822c3b-764f-4adf-b505-bada6b027ab1","Nodename":"Api"},{"nodeType":"endNode","NodeId":"c92a7b99-0469-43be-b11e-9877bcff8ab6","Nodename":"End"}]}]

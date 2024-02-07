@@ -1,0 +1,207 @@
+{
+  "api1": {
+    "header": "USERS",
+    "content": {
+      "REQUEST_PAYLOAD": {
+        "test1": {
+          "test11": {
+            "name": "METHODS",
+            "type": "combo-box",
+            "options": ["GET", "POST", "PUT", "DELETE"],
+            "value": ""
+          }
+        },
+        "test2": {
+          "test21": {
+            "name": "METHODS",
+            "type": "combo-box",
+            "options": ["GET", "POST", "PUT", "DELETE"],
+            "value": ""
+          },
+          "test1": {
+            "test11sa": {
+              "name": "URL",
+              "type": "text",
+              "value": ""
+            },
+            "test1assasasa": {
+              "test11saasdasdasdas": {
+                "name": "URL",
+                "type": "text",
+                "value": ""
+              }
+            }
+          },
+          "test1sa": {
+            "test11": {
+              "name": "METHODS",
+              "type": "combo-box",
+              "options": ["GET", "POST", "PUT", "DELETE"],
+              "value": ""
+            }
+          }
+        },
+        "METHODS": {
+          "name": "METHODS",
+          "type": "combo-box",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "value": ""
+        },
+        "URL": {
+          "name": "URL",
+          "type": "text",
+          "value": ""
+        },
+        "HEADERS": {
+          "name": "HEADERS",
+          "type": "key-value",
+          "options": [
+            {
+              "key": "key1",
+              "value": "value1"
+            }
+          ],
+          "value": []
+        },
+        "tes1t1": {
+          "test11": {
+            "name": "METHODS",
+            "type": "combo-box",
+            "options": ["GET", "POST", "PUT", "DELETE"],
+            "value": ""
+          }
+        },
+        "REQUEST_PAYLOAD_TYPES": {
+          "name": "REQUEST_PAYLOAD_TYPES",
+          "type": "radio",
+          "options": [
+            "RAW",
+            "BINARY",
+            "URLENCODED",
+            "FORMDATA",
+            "GRAPHQL",
+            "HTML",
+            "XML",
+            "JAVASCRIPT",
+            "JSON",
+            "TEXT"
+          ],
+          "value": ""
+        }
+      },
+      "GENERATE": {
+        "field1": {
+          "name": "field1",
+          "type": "textarea",
+          "value": ""
+        }
+      },
+      "VALIDATE": {
+        "field1": {
+          "name": "field1",
+          "type": "textarea",
+          "value": ""
+        }
+      },
+      "EXECUTE": {
+        "field1": {
+          "name": "field1",
+          "type": "textarea",
+          "value": ""
+        }
+      },
+      "ERRORS": {
+        "field1": {
+          "name": "field1",
+          "type": "textarea",
+          "value": ""
+        }
+      }
+    },
+    "footer": "END"
+  },
+  "api2": {
+    "header": "CUSTOMERS",
+    "content": {
+      "REQUEST_PAYLOAD": {
+        "METHODS": {
+          "name": "METHODS",
+          "type": "combo-box",
+          "options": ["GETsss", "POST", "PUT", "DELETE"],
+          "value": ""
+        },
+        "URL": {
+          "name": "URL",
+          "type": "text",
+          "value": ""
+        },
+        "HEADERS": {
+          "name": "HEADERS",
+          "type": "key-value",
+          "options": [
+            {
+              "key": "key1",
+              "value": "value1"
+            }
+          ],
+          "value": []
+        },
+        "REQUEST_PAYLOAD_TYPES": {
+          "name": "REQUEST_PAYLOAD_TYPES",
+          "type": "radio",
+          "options": [
+            "RAW",
+            "BINARY",
+            "URLENCODED",
+            "FORMDATA",
+            "GRAPHQL",
+            "HTML",
+            "XML",
+            "JAVASCRIPT",
+            "JSON",
+            "TEXT"
+          ],
+          "value": ""
+        },
+        "testing1": {
+          "test2": {
+            "test3": {
+              "name": "URL",
+              "type": "text",
+              "value": ""
+            }
+          }
+        }
+      },
+      "GENERATE": {
+        "field1": {
+          "name": "field1",
+          "type": "textarea",
+          "value": ""
+        }
+      },
+      "VALIDATE": {
+        "field1": {
+          "name": "field1",
+          "type": "textarea",
+          "value": ""
+        }
+      },
+      "EXECUTE": {
+        "field1": {
+          "name": "field1",
+          "type": "textarea",
+          "value": ""
+        }
+      },
+      "ERRORS": {
+        "field1": {
+          "name": "field1",
+          "type": "textarea",
+          "value": ""
+        }
+      }
+    },
+    "footer": "ENDx"
+  }
+}
