@@ -13,4 +13,4 @@ RUN npm install --no-optional && npm cache clean --force
 WORKDIR /app
 COPY . .
 
-CMD [ "node", "app/index.js" ]
+CMD [ "node", "app/main.ts" ]
