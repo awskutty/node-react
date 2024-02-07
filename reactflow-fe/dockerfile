@@ -1,6 +1,6 @@
 FROM node:20
 # Create app directory
-WORKDIR /root/node-react/react-app
+WORKDIR /opt/src/app
 # Install app dependencies
 COPY package*.json ./
 
