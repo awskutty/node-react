@@ -1,12 +1,21 @@
-FROM node:20
+FROM node:14
 # Create app directory
 WORKDIR /usr/src/app
+# Declare build time environment variables
+ARG REACT_APP_NODE_ENV
+ARG REACT_APP_SERVER_BASE_URL
+
+# Set default values for environment variables
+ENV REACT_APP_NODE_ENV=$REACT_APP_NODE_ENV
+ENV REACT_APP_SERVER_BASE_URL=$REACT_APP_SERVER_BASE_URL
+
 # Install app dependencies
 COPY package.json ./
 
 RUN npm install
 # Copy app source code
 COPY . .
+RUN npm run build
 
 #Expose port and start application
 EXPOSE 3000
