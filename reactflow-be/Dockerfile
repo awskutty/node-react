@@ -10,7 +10,7 @@ COPY package.json package-lock.json* ./
 RUN npm install --no-optional && npm cache clean --force
 
 # copy in our source code last, as it changes the most
-WORKDIR /opt
+WORKDIR /app
 COPY . .
 
 CMD [ "node", "app/index.js" ]
