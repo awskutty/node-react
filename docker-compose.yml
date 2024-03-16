@@ -3,13 +3,13 @@ services:
   react_app:
     container_name: react_app
     image: react_app_template
-    build: ./react-app
+    build: ./reactflow-fe
     ports:
       - "3000:3000"
   node_server:
     container_name: node_server
     image: node_server_template
     build:
-      context: ./node-backend
+      context: ./reactflow-be
     ports:
       - "3001:3001"
