@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "http://52.73.160.47:3001";
 export const initialCall = async (
   application,
   version,
